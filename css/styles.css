@@ -77,9 +77,13 @@ text-shadow: 1px 1px 13px #222;}
 .text {font-family: 'Quicksand', sans-serif;
 font-size: 2vw; 
 color: blue;
-background-color: #EDDA98;}
+background-color: #EDDA98;
+display: table-cell;}
+#text-list{list-style: none;
 
-
+}
+#text-list p {background-color: #D2B37A;}
+h3 {text-align: center;}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
