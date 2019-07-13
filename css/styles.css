@@ -44,6 +44,7 @@ body {
 
 #nav-list {
   margin-top: 10px;
+  font-size: 4vw;
 }
 #nav-list a {
   color: #951C49;
@@ -81,36 +82,38 @@ display: table-cell;}
 #text-list{list-style: none;
 
 }
-#text-list p {background-color: #D2B37A;}
-h3 {text-align: center;}
+
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+  .pad-left{ border: 10px #8EE3F4 solid;}
   
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-.text { font-size: 2vw;
-}
-
+.text { font-size: 2vw;}
+.pad-left{ border: 10px #8EE3F4 solid;}
+ 
+  
   
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
  
-   .text { font-size: 1.8vw;
-}
-  }
+   .text { font-size: 1.8vw;}
+   .pad-left{ border: 10px #8EE3F4 solid;}
+    
  
 
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-
+.pad-left{ border: 10px #8EE3F4 solid;}
   /* Header */
   .navbar-brand {
     padding-top: 10px;
