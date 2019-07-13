@@ -113,8 +113,14 @@ display: table-cell;}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-.pad-left{ border: 10px #8EE3F4 solid;}
+
   /* Header */
+  #text-list p{overflow: auto;
+    font-size: 1em;
+}
+.pad-left{ border: 10px #8EE3F4 solid;
+  
+}
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -149,6 +155,10 @@ display: table-cell;}
     padding-top: 5px;
     font-size: 6vw;
   }
+
+   .pad-left{ border: 10px #8EE3F4 solid;}
+   #text-list p{overflow: auto;
+    font-size: .8vw;}
   /* End Header */
   
 
