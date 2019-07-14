@@ -78,11 +78,15 @@ text-shadow: 1px 1px 13px #222;}
 font-size: 2vw; 
 color: blue;
 background-color: #EDDA98;
-display: table-cell;}
-#text-list{list-style: none;
+display: table-cell;
 
 }
-
+#text-list{list-style: none;
+margin-right: 15px;
+margin-left: 0px;
+padding: 0;
+position: relative;
+}
 
 
 /********** Large devices only **********/
@@ -106,7 +110,12 @@ display: table-cell;}
  
    .text { font-size: 1.8vw;}
    .pad-left{ border: 10px #8EE3F4 solid;}
-    
+    #text-list{list-style: none;
+margin-right: 15px;
+margin-left: 15px;
+padding: 0;
+position: relative;
+}
  
 
 }
@@ -117,7 +126,15 @@ display: table-cell;}
   /* Header */
   #text-list p{overflow: auto;
     font-size: 1em;
+    margin-right: 5px;
 }
+#text-list{list-style: none;
+margin-right: 15px;
+margin-left: 15px;
+padding: 0;
+position: relative;
+}
+
 .pad-left{ border: 10px #8EE3F4 solid;
   
 }
@@ -146,6 +163,7 @@ display: table-cell;}
   }
 #content .container {margin-right: 240px; margin-left: 240px;}
 }
+}
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -159,6 +177,12 @@ display: table-cell;}
    .pad-left{ border: 10px #8EE3F4 solid;}
    #text-list p{overflow: auto;
     font-size: .8vw;}
+    #text-list{list-style: none;
+margin-right: 15px;
+margin-left: 15px;
+padding: 0;
+position: relative;
+}
   /* End Header */
   
 
