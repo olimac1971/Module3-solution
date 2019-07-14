@@ -100,7 +100,12 @@ position: relative;
 
 .text { font-size: 2vw;}
 .pad-left{ border: 10px #8EE3F4 solid;}
- 
+ #text-list{list-style: none;
+margin-right: 15px;
+margin-left: 15px;
+padding: 0;
+position: relative;
+}
   
   
 }
@@ -111,8 +116,8 @@ position: relative;
    .text { font-size: 1.8vw;}
    .pad-left{ border: 10px #8EE3F4 solid;}
     #text-list{list-style: none;
-margin-right: 15px;
-margin-left: 15px;
+margin-right: 20px;
+margin-left: 20px;
 padding: 0;
 position: relative;
 }
@@ -129,8 +134,8 @@ position: relative;
     margin-right: 5px;
 }
 #text-list{list-style: none;
-margin-right: 15px;
-margin-left: 15px;
+margin-right: 20px;
+margin-left: 20px;
 padding: 0;
 position: relative;
 }
@@ -163,6 +168,7 @@ position: relative;
   }
 #content .container {margin-right: 240px; margin-left: 240px;}
 }
+
 }
 
 
@@ -178,8 +184,8 @@ position: relative;
    #text-list p{overflow: auto;
     font-size: .8vw;}
     #text-list{list-style: none;
-margin-right: 15px;
-margin-left: 15px;
+margin-right: 20px;
+margin-left: 20px;
 padding: 0;
 position: relative;
 }
